@@ -21,8 +21,8 @@ function App() {
           <Route path="/create">
             <Create />
           </Route>
-          <Route>
-            <Search path="/search" />
+          <Route path="/search">
+            <Search />
           </Route>
           <Route path="/recipes/:id">
             <Recipe />
