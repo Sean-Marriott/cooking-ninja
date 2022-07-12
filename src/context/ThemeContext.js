@@ -16,8 +16,8 @@ const themeReducer = (state, action) => {
 // React component
 export function ThemeProvider({ children }){
     const [state, dispatch] = useReducer(themeReducer, {
-        color: 'blue',
-        mode: 'dark'
+        color: '#58249c',
+        mode: 'light'
     })
 
     const changeColor = (color) => {
